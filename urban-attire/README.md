@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+# Urban Attire
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Urban Attire is a modern e-commerce platform designed to streamline the online shopping experience for urban fashion enthusiasts. The platform offers a seamless browsing and purchasing experience for clothing and accessories, featuring user-friendly navigation and advanced filtering options. Urban Attire aims to provide a convenient and enjoyable shopping experience by integrating the latest technologies and best practices in web development.
 
-## Available Scripts
+## Introduction
 
-In the project directory, you can run:
+Welcome to Urban Attire, where fashion meets technology. Our platform provides an intuitive and engaging shopping experience, allowing users to explore and purchase the latest trends in urban fashion. With a focus on performance and user experience, Urban Attire aims to deliver a cutting-edge online retail experience.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Product Catalogue:** Users can browse through a wide range of clothing and accessories, with detailed product descriptions and images.
+- **Advanced Filtering:** Users can filter products based on categories, sizes, colors, and other attributes to find exactly what they're looking for.
+- **Shopping Cart:** Users can add items to their cart, view cart contents, and proceed to checkout.
+- **User Accounts:** Users can create and manage their accounts, track orders, and save favorite items.
+- **Order Management:** Users can place orders, choose payment methods, and view order history.
+- **Admin Dashboard:** Admins can manage product listings, process orders, and handle user accounts.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tools and Technologies
 
-### `npm test`
+### Front-end:
+- **React.js:** Used for building the user interface with a component-based architecture that promotes reusability and maintainability.
+- **Redux:** Utilized for state management, ensuring a predictable and consistent application state across different components.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Back-end:
+- **Node.js:** Selected for its non-blocking, event-driven architecture, ideal for handling high concurrency and providing a scalable server-side solution.
+- **Express.js:** Used as the web application framework for Node.js, facilitating the creation of RESTful APIs.
 
-### `npm run build`
+### Database:
+- **MongoDB:** A NoSQL database used for storing product information, user accounts, and order details. Its flexible schema allows for efficient data management.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Pages and Functionality
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The Urban Attire platform includes the following key pages:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Home Page:**
+   - **Description:** Showcases featured products, promotions, and new arrivals. Provides quick access to various product categories.
 
-### `npm run eject`
+2. **Product Catalogue Page:**
+   - **Description:** Displays a list of products with filtering options based on categories, sizes, and colors. Users can view detailed information about each product.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Product Details Page:**
+   - **Description:** Provides detailed information about a selected product, including images, descriptions, pricing, and availability.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Shopping Cart Page:**
+   - **Description:** Displays items added to the cart, allows users to update quantities, remove items, and proceed to checkout.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. **Checkout Page:**
+   - **Description:** Collects shipping and payment information, and processes the order. Includes options for different payment methods and delivery addresses.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+6. **User Profile Page:**
+   - **Description:** Allows users to manage their account details, view order history, and update personal information.
 
-## Learn More
+7. **Admin Dashboard:**
+   - **Description:** Enables admins to manage product listings, process orders, and handle user accounts. Provides tools for CRUD operations on products and orders.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To get started with the Urban Attire project, follow these steps:
 
-### Code Splitting
+1. Clone the Repository:
+    ```sh
+    git clone https://github.com/Baldeep-98/Urban-Attire.git
+    cd urban-attire
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Install Dependencies:
+    - For frontend:
+        ```sh
+        cd frontend
+        npm install
+        ```
+    - For backend:
+        ```sh
+        cd backend
+        npm install
+        ```
 
-### Analyzing the Bundle Size
+3. Run the Application:
+    - For frontend:
+        ```sh
+        cd frontend
+        npm start
+        ```
+    - For backend:
+        ```sh
+        cd backend
+        npm start
+        ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributing
 
-### Making a Progressive Web App
+If you would like to contribute to the Urban Attire project, please follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Commit your changes and push to your forked repository.
+4. Open a pull request with a description of your changes.
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### Deployment
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+For any questions or feedback, please reach out to us at [your-email@example.com](mailto:your-email@example.com).
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for using Urban Attire! We hope you enjoy your shopping experience.
