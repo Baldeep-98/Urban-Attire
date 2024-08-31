@@ -1,4 +1,4 @@
-//navigation
+//navigation bar
 import React from "react";
 import { Link } from "react-router-dom";
 import { isWebTokenValid } from "../webTokenVerification";
