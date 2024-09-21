@@ -3,14 +3,14 @@ import logo from '../assests/Images/logo.png';
 import { Link } from 'react-router-dom';
 import MenuIcon from '../assests/Images/menu.svg';
 import CloseIcon from '../assests/Images/cross.svg';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { logout } from '../storeInformation';
 import Navoptions from './NavOptions';
 
 function Navbar() {
     const [isNav, setIsnav] = React.useState(false);
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
     const dispatch = useDispatch();
     const isValid = useSelector((state) => state.auth.isValid);
 

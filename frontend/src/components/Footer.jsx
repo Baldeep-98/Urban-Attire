@@ -4,7 +4,7 @@ import insta from '../assests/Images/insta.jpg';
 import facebook from '../assests/Images/facebook.png';
 import twitter from '../assests/Images/twitter.png';
 import youtube from '../assests/Images/youtube.png';
-import Navoptions from "./NavOptions";
+// import Navoptions from "./NavOptions";
 
 function Footer() {
     return (

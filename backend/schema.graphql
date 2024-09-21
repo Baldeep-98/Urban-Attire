@@ -1,0 +1,82 @@
+type Users{
+_id:ID!
+user_id:String!
+name:String!
+phon:String!
+address:String!
+dob:GraphQLDate!
+
+email:String!
+username:String!
+password:String!
+}
+
+type Cart{
+_id:ID!
+product_id:Int!
+}
+
+type CartItem{
+_id:ID!
+productDetails:Product
+}
+
+scalar GraphQLDate
+
+type UserAuthenticationDetail{
+user:Users
+webToken:String!
+}
+
+type Product{
+_id:ID!
+product_id:Int
+product_name:String
+product_category:String
+product_price:String
+product_longDescription:String
+product_shortDescription:String
+occassion:String
+product_image_url:String
+}
+
+scalar GraphQLDate
+
+input UserInputes{
+name:String!
+phone:String!
+address:String!
+dob:GraphQLDate!
+
+email:String
+password:String
+confirmPassword:String!
+}
+
+input UserCredentialInput{
+username:String!
+password:String!
+}
+
+input ProductInput{
+product_id:Int
+product_name:String
+product_category:String
+product_price:String
+product_longDescription:String
+product_shortDescription:String
+occassion:String
+product_image_url:String
+}
+
+
+type Query{
+getUser(UserCredential:UserCredentialInput!):UserAuthenticationDetail
+ProductList:[Product]
+getProduct(product_id:Int!):Product
+CartItem:[CartItem]
+}
+
+type Mutation{
+userAdd(user:UserInputes!):Users!
+}
